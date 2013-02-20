@@ -1,5 +1,5 @@
 #define LAST	"Billy" 
-#define MI	" D."
+#define MI	" G."
 #define FIRST	"Grabasandwhich"
 
 class name {
