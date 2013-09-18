@@ -1,6 +1,6 @@
-#define LAST	"Billy" 
-#define MI	" G."
-#define FIRST	"Grabasandwhich"
+#define LAST	"Joey" 
+#define MI	"A."
+#define FIRST	"Bagodonuts"
 
 class name {
 
