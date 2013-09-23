@@ -1,8 +1,9 @@
+
 # makefile to build a program
 
 # program depends on components: name and main 
 myname:      main.o name.o 
-	g++ -c -g  main.o name.o -o myname
+	g++ -g  main.o name.o -o myname
 
 # name.cpp has it's own header file
 name.o:        name.cpp name.h
@@ -14,6 +15,3 @@ main.o:	       main.cpp name.h
 
 clean:
 	/bin/rm -f myname *.o
-
-backup:
-	tar -cvf archive/WOWOOO.assignment4.tar *.cpp *.h readme Makefile
